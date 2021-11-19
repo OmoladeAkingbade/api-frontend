@@ -1,0 +1,85 @@
+body{
+    background-color: #f5f5f5;
+    font-size: large;
+    margin: 3rem;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Yuji Syuku', serif;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    padding: 1rem;
+   
+}
+
+img{
+    border-radius: 0.5rem;
+    height: 75%;
+    width: 100%;
+}
+
+#grid{
+ padding:5rem ;
+ 
+}
+
+.fas{
+  font-size: 3rem;
+ position: relative;
+ left: 30rem;
+ color: aqua;
+    
+}
+
+
+.text-center{
+    text-align: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+ button:hover {
+    opacity: 0.7;
+    background-color: aquamarine;
+  }
+
+  @media screen and (max-width: 600px) {
+    #grid{
+      padding:1rem ;
+      
+      
+     }
+     .fas{
+      font-size: 2rem;
+     position: relative;
+     left: 4rem;
+     
+    }
+  }
+    
